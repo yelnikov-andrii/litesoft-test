@@ -40,7 +40,11 @@ export const Head: React.FC <Props> = ({ withImages, setWithImages }) => {
           {column.label}
         </TableCell>
       ))}
-      <TableCell>
+      <TableCell
+        sx={{
+          textAlign: 'right'
+        }}
+      >
         <Switch 
           {...label}
           checked={withImages}

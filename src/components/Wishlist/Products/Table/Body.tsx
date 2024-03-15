@@ -27,13 +27,21 @@ export const Body: React.FC <{products: FilteredProductInt[]}> = ({ products }) 
             <TableCell>
               {product.id}
             </TableCell>
-            <TableCell>
+            <TableCell
+              sx={{
+                fontWeight: 700,
+              }}
+            >
               {product.name}
             </TableCell>
             <TableCell>
               {product.material}
             </TableCell>
-            <TableCell>
+            <TableCell
+              sx={{
+                fontWeight: 700,
+              }}
+            >
               {product.price} $
             </TableCell>
             <ActionsCell />
