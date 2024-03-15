@@ -1,17 +1,14 @@
 import React from 'react'
 import { Navigation } from './Navigation/Navigation'
 import { Header } from './Header/Header'
-import { CountOfProducts } from './CountOfProducts/CountOfProducts'
-import { Buttons } from './Buttons/Buttons'
+import { Products } from './Products/Products'
 
 export const Wishlist = () => {
   return (
     <div>
       <Navigation />
       <Header />
-      <CountOfProducts />
-      <Buttons />
-      <div>products</div>
+      <Products />
     </div>
   )
 }
